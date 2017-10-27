@@ -11,4 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/tempPlay.iml" filepath="$PROJECT_DIR$/tempPlay.iml" />
     </modules>
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
 </project>
