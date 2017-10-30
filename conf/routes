@@ -4,7 +4,8 @@
 
 # Home page
 GET     /                                       Application.index
-#GET     /show                                   Application.show
+GET     /show/{id}                              Application.show
+GET     /captcha                                Application.captcha
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

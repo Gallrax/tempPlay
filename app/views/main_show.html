@@ -35,6 +35,23 @@
     #{doLayout /}
     </div>
 
+    <div>
+        <p>
+            <label for="content">Your message: </label>
+            <textarea name="content" id="content">${params.content}</textarea>
+        </p>
+        <p>
+            <label for="code">Please type the code below: </label>
+            <img src="@{Application.captcha(uuid)}" />
+            <br />
+            <input type="text" name="code" id="code" size="18" value="" />
+            <input type="hidden" name="randomID" value="${uuid}" />
+        </p>
+        <p>
+            <input type="submit" value="Submit your comment" />
+        </p>
+    </div>
+
     <p id="footer">
         Yabe is a (not that) powerful blog engine built with the
         <a href="javascript:;">Play framework</a>
